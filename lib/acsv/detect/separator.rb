@@ -2,7 +2,7 @@ module ACSV
   module Detect
 
     # Possible CSV separators to check
-    SEPARATORS = [",", ";", "\t", "|", "#"]
+    SEPARATORS = [",", ";", "\t", "|", "#", " "]
 
     # @param file_or_data [File, String] CSV file or data to probe
     # @return [String] most probable column separator character from first line, or +nil+ when none found

@@ -8,7 +8,8 @@ describe ACSV::Detect do
       :semicolon => ";",
       :tab => "\t",
       :pipe => "|",
-      :hash => "#"
+      :hash => "#",
+      :space => " "
     }
 
     Dir.glob('spec/files/{test,extern}_*') do |file|
